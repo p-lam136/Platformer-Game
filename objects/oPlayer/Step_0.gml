@@ -65,3 +65,10 @@ else
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+//New Room
+
+if (x > 1363)
+	{
+	room_goto(Room2)
+	}
