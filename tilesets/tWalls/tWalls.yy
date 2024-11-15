@@ -2,13 +2,9 @@
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
   "name": "tWalls",
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
   "spriteId": {
-    "name": "s_walls",
-    "path": "sprites/s_walls/s_walls.yy",
+    "name": "sWalls",
+    "path": "sprites/sWalls/sWalls.yy",
   },
   "tileWidth": 128,
   "tileHeight": 128,
@@ -16,9 +12,13 @@
   "tileyoff": 0,
   "tilehsep": 0,
   "tilevsep": 0,
+  "spriteNoExport": true,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
-  "spriteNoExport": true,
   "out_columns": 7,
   "tile_count": 48,
   "autoTileSets": [

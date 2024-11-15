@@ -47,7 +47,7 @@ y = y + vsp;
 //Animation
 if (!place_meeting(x,y+1,oInvisibleWall))
 	{
-	sprite_index = s_playerJ
+	sprite_index = sPlayerJ
 	image_speed = 0
 
 	}
@@ -56,19 +56,32 @@ else
 	image_speed = 1;
 	if (hsp == 0)
 	{
-		sprite_index = s_PlayerI;
+		sprite_index = sPlayerI;
 	}
 	else
 	{
-		sprite_index = s_playerW;
+		sprite_index = sPlayerW;
 	}
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
 
-//New Room
+//Falling to death
+
+if (y > 760)
+	{
+		game_restart()
+	}
+	
+//Go to room 2
 
 if (x > 1363)
 	{
-	room_goto(Room2)
+		room_goto(Room2)
+	}
+	
+//Go to room 3 (End)
+if (y > 540) and (x < -2)
+	{
+		room_goto(Room3)
 	}

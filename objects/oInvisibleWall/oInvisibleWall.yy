@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oInvisibleWall",
   "spriteId": {
-    "name": "s_InvisibleWall",
-    "path": "sprites/s_InvisibleWall/s_InvisibleWall.yy",
+    "name": "sInvisibleWall",
+    "path": "sprites/sInvisibleWall/sInvisibleWall.yy",
   },
   "solid": false,
   "visible": false,
